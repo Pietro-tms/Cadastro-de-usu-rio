@@ -1,0 +1,38 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+ 
+}
+
+.register-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+.register-content input{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.register-content button {
+  padding: 10px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.register-content button:hover {
+  background-color: #764ba2;
+}

@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-      <h1>Cadsatrar Usuário</h1>
+      <h1>Cadastrar Usuário</h1>
       <Register
         setName={setName}
         setEmail={setEmail}
